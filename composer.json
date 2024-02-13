@@ -4,12 +4,20 @@
     "autoload": {
         "psr-4": {
             "Waihiga\\Phpsmsmail\\": "src/"
-        }
+        },
+        "files": [
+            "src/helpers.php"
+        ]
     },
     "authors": [
         {
             "name": "waihiga"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.4",
+        "laravel/framework": ">=8.0",
+        "phpunit/phpunit": "^11.0",
+        "guzzlehttp/guzzle": "^7.8"
+    }
 }
