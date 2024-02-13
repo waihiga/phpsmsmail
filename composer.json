@@ -1,0 +1,15 @@
+{
+    "name": "waihiga/phpsmsmail",
+    "description": "PHP SMS and Email notifications",
+    "autoload": {
+        "psr-4": {
+            "Waihiga\\Phpsmsmail\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "waihiga"
+        }
+    ],
+    "require": {}
+}
